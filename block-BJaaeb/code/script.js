@@ -5,7 +5,10 @@ default value to be "text" and return the input element inside label. (create it
 
 */
 
-// Your code goes here
+function createInputElm(label,type="text"){
+  label=document.createElement("label")
+return label
+}
 
 // TEST
 createInputElm('Your name'); //<label>Your name: <input type="text"></label>
@@ -13,7 +16,10 @@ createInputElm('Your age', 'number'); //<label>Your age: <input type="number"></
 
 // 2. Do the same thing as above using string literal like `<h1>Hello</h1>`
 
-// Your code goes here
+function createInputElm(label,type="text"){
+  label=document.createElement("label")
+return label
+}
 
 // TEST
 createInputElm('Your name'); //<label>Your name: <input type="text"></label>
@@ -23,7 +29,9 @@ createInputElm('Your age', 'number'); //<label>Your age: <input type="number"></
 // the html for the link like <ul> <li>Mango</li>  <li>Apple</li>  <li>Banana</li> </ul>
 // Your code goes here
 
-// TEST
+function createlist([]){
+  
+}
 createList(['ALABAMA', 'ALASKA', 'HAWAII', 'KENTUCKY']);
 createList(['Afghanistan', 'Antarctica', 'Congo', 'Estonia']);
 
@@ -39,7 +47,9 @@ createList(['Afghanistan', 'Antarctica', 'Congo', 'Estonia']);
 </ul>
 */
 
-// Your code goes here
+function createTodoList([]){
+  
+}
 
 // TEST
 createTodoList([
