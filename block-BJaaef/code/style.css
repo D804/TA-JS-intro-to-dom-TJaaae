@@ -18,4 +18,10 @@ body {
 h1,
 h2 {
   text-align: center;
+  color: white;
+  
+}
+header{
+  background-color: #4075D5;
+  padding: 1rem;
 }
